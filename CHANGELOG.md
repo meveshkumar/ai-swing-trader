@@ -21,3 +21,17 @@ The project follows version-based development.
 ### Next Version
 
 Version 1.1.0 - Project Architecture
+## Version 1.1.0
+
+Added:
+
+* Technical Indicator Engine
+* SMA 20
+* SMA 50
+* EMA 20
+* RSI 14
+* MACD
+* MACD Signal
+* MACD Histogram
+* Average Volume (20)
+* calculate_indicators() method
