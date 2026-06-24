@@ -2,7 +2,7 @@
 
 ## Current Version
 
-Version 1.1.0
+Version 1.2.0
 
 ---
 
@@ -26,7 +26,7 @@ Version 1.0 - Data Collection Module: ✅ Completed
 
 Version 1.1 - Technical Indicator Engine: ✅ Completed
 
-Version 1.2 - Signal Generation Engine: ⏳ Pending
+Version 1.2 - Signal Generation Engine: ✅ Completed
 
 Version 1.3 - Stock Scoring Engine: ⏳ Pending
 
@@ -85,27 +85,49 @@ Completed Features:
 * MACD Signal
 * MACD Histogram
 * Average Volume (20)
-* Unified calculate_indicators() method
+* calculate_indicators() method
+
+---
+
+### Version 1.2 - Signal Generation Engine
+
+Status: ✅ Completed
+
+Files:
+
+* src/signal_engine.py
+
+Completed Features:
+
+* BUY signal generation
+* SELL signal generation
+* HOLD signal generation
+* SignalEngine class
+* analyze_symbol() method
+* Indicator Engine integration
+* End-to-end market signal generation
 
 ---
 
 ## Current Task
 
-Prepare Version 1.2 - Signal Generation Engine
+Prepare Version 1.3 - Stock Scoring Engine
 
 ---
 
 ## Next Milestone
 
-Create signal generation logic using:
+Create a stock scoring system that converts indicator and signal data into a numerical ranking score.
 
-* SMA crossover rules
-* RSI conditions
-* MACD confirmation
-* BUY / SELL / HOLD signals
+Example:
+
+* Strong Buy: 90–100
+* Buy: 70–89
+* Hold: 40–69
+* Sell: 0–39
 
 ---
 
 ## Overall Progress
 
-35%
+45%

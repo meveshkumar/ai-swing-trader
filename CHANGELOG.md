@@ -35,3 +35,16 @@ Added:
 * MACD Histogram
 * Average Volume (20)
 * calculate_indicators() method
+
+## Version 1.2.0
+
+Added:
+
+* Signal Generation Engine
+* BUY signal logic
+* SELL signal logic
+* HOLD signal logic
+* SignalEngine class
+* analyze_symbol() method
+* Integration with Technical Indicator Engine
+* End-to-end market signal generation
