@@ -1,0 +1,18 @@
+# Virtual Environment
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# Excel Output Files
+reports/*.xlsx
+
+# macOS
+.DS_Store
