@@ -2,7 +2,7 @@
 
 ## Current Version
 
-Version 1.4.0
+Version 1.5.0
 
 ---
 
@@ -32,11 +32,13 @@ Version 1.3 - Stock Scoring Engine: ✅ Completed
 
 Version 1.4 - Portfolio Engine: ✅ Completed
 
-Version 1.5 - Backtesting Engine: ⏳ Pending
+Version 1.5 - Backtesting Engine: ✅ Completed
 
-Version 1.6 - AI Analysis Layer: ⏳ Pending
+Version 1.6 - Performance Analytics Engine: ⏳ Pending
 
-Version 1.7 - Dashboard & Reporting: ⏳ Pending
+Version 1.7 - AI Analysis Layer: ⏳ Pending
+
+Version 1.8 - Dashboard & Reporting: ⏳ Pending
 
 ---
 
@@ -52,6 +54,15 @@ Files:
 * src/database.py
 * src/data_fetcher.py
 * src/main.py
+
+Features:
+
+* Yahoo Finance integration
+* Historical stock data download
+* SQLite database storage
+* Data cleaning and validation
+
+---
 
 ### Version 1.1 - Technical Indicator Engine
 
@@ -72,6 +83,8 @@ Features:
 * MACD Histogram
 * Average Volume
 
+---
+
 ### Version 1.2 - Signal Generation Engine
 
 Status: ✅ Completed
@@ -85,6 +98,9 @@ Features:
 * BUY signals
 * SELL signals
 * HOLD signals
+* Indicator-based trade logic
+
+---
 
 ### Version 1.3 - Stock Scoring Engine
 
@@ -99,6 +115,9 @@ Features:
 * Numerical scoring
 * Rating generation
 * Signal integration
+* Stock ranking support
+
+---
 
 ### Version 1.4 - Portfolio Engine
 
@@ -120,18 +139,40 @@ Features:
 
 ---
 
+### Version 1.5 - Backtesting Engine
+
+Status: ✅ Completed
+
+Files:
+
+* src/backtest_engine.py
+
+Features:
+
+* Historical signal analysis
+* BUY trade simulation
+* SELL trade simulation
+* Total trade calculation
+* Winning trade calculation
+* Losing trade calculation
+* Win rate calculation
+* Profit/Loss calculation
+* Historical strategy evaluation
+
+---
+
 ## Current Task
 
-Prepare Version 1.5 - Backtesting Engine
+Prepare Version 1.6 - Performance Analytics Engine
 
 ---
 
 ## Next Milestone
 
-Create a backtesting engine to evaluate historical trading performance using generated signals.
+Create a performance analytics engine to evaluate strategy quality, profitability metrics, risk statistics, and trade performance.
 
 ---
 
 ## Overall Progress
 
-65%
+75%
