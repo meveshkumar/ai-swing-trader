@@ -205,19 +205,23 @@ if __name__ == "__main__":
 
     print("\nLast 10 Records\n")
 
-    print(
-        df[
-            [
-                "Date",
-                "Close",
-                "SMA_20",
-                "SMA_50",
-                "EMA_20",
-                "RSI_14",
-                "MACD",
-                "MACD_SIGNAL",
-                "MACD_HISTOGRAM",
-                "AVG_VOLUME_20"
-            ]
-        ].tail(10)
-    )
+    if df.empty:
+        print("No data found for RELIANCE.NS")
+
+    else:
+        print(
+            df[
+                [
+                    "Date",
+                    "Close",
+                    "SMA_20",
+                    "SMA_50",
+                    "EMA_20",
+                    "RSI_14",
+                    "MACD",
+                    "MACD_SIGNAL",
+                    "MACD_HISTOGRAM",
+                    "AVG_VOLUME_20"
+                ]
+            ].tail(10)
+        )

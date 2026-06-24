@@ -61,3 +61,15 @@ Added:
 * Indicator integration
 * analyze_symbol() method
 * End-to-end stock ranking workflow
+
+## Version 1.4.0
+
+Added:
+
+* Portfolio Engine
+* Portfolio tracking
+* Position management
+* Current value calculation
+* Profit/Loss calculation
+* Profit/Loss percentage
+* Portfolio summary generation

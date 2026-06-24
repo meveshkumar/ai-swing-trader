@@ -2,7 +2,7 @@
 
 ## Current Version
 
-Version 1.3.0
+Version 1.4.0
 
 ---
 
@@ -30,7 +30,7 @@ Version 1.2 - Signal Generation Engine: ✅ Completed
 
 Version 1.3 - Stock Scoring Engine: ✅ Completed
 
-Version 1.4 - Portfolio Engine: ⏳ Pending
+Version 1.4 - Portfolio Engine: ✅ Completed
 
 Version 1.5 - Backtesting Engine: ⏳ Pending
 
@@ -53,19 +53,6 @@ Files:
 * src/data_fetcher.py
 * src/main.py
 
-Completed Features:
-
-* Yahoo Finance integration
-* Historical market data download
-* SQLite database creation
-* Market data storage
-* Nifty stock processing
-* Configurable settings
-* Logging framework
-* Automated data collection workflow
-
----
-
 ### Version 1.1 - Technical Indicator Engine
 
 Status: ✅ Completed
@@ -74,9 +61,8 @@ Files:
 
 * src/indicator_engine.py
 
-Completed Features:
+Features:
 
-* SQLite data loading
 * SMA 20
 * SMA 50
 * EMA 20
@@ -84,10 +70,7 @@ Completed Features:
 * MACD
 * MACD Signal
 * MACD Histogram
-* Average Volume (20)
-* calculate_indicators() method
-
----
+* Average Volume
 
 ### Version 1.2 - Signal Generation Engine
 
@@ -97,17 +80,11 @@ Files:
 
 * src/signal_engine.py
 
-Completed Features:
+Features:
 
-* BUY signal generation
-* SELL signal generation
-* HOLD signal generation
-* SignalEngine class
-* analyze_symbol() method
-* Indicator Engine integration
-* End-to-end market signal generation
-
----
+* BUY signals
+* SELL signals
+* HOLD signals
 
 ### Version 1.3 - Stock Scoring Engine
 
@@ -117,37 +94,44 @@ Files:
 
 * src/scoring_engine.py
 
-Completed Features:
+Features:
 
-* Numerical stock scoring
+* Numerical scoring
 * Rating generation
-* Score calculation logic
 * Signal integration
-* Indicator integration
-* analyze_symbol() method
-* End-to-end stock ranking workflow
+
+### Version 1.4 - Portfolio Engine
+
+Status: ✅ Completed
+
+Files:
+
+* src/portfolio_engine.py
+
+Features:
+
+* Portfolio tracking
+* Position management
+* Entry price tracking
+* Current value calculation
+* Profit/Loss calculation
+* Profit/Loss percentage
+* Portfolio summary
 
 ---
 
 ## Current Task
 
-Prepare Version 1.4 - Portfolio Engine
+Prepare Version 1.5 - Backtesting Engine
 
 ---
 
 ## Next Milestone
 
-Create a portfolio management engine that tracks:
-
-* Selected stocks
-* Entry price
-* Current price
-* Quantity
-* Profit / Loss
-* Portfolio performance
+Create a backtesting engine to evaluate historical trading performance using generated signals.
 
 ---
 
 ## Overall Progress
 
-55%
+65%
