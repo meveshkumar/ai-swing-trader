@@ -48,3 +48,16 @@ Added:
 * analyze_symbol() method
 * Integration with Technical Indicator Engine
 * End-to-end market signal generation
+
+## Version 1.3.0
+
+Added:
+
+* Stock Scoring Engine
+* Numerical stock scoring
+* Rating generation
+* Score calculation logic
+* Signal integration
+* Indicator integration
+* analyze_symbol() method
+* End-to-end stock ranking workflow
