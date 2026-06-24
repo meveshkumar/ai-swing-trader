@@ -29,10 +29,10 @@ INDEX_NAME = "NIFTY 500"
 # Historical Data Download Settings
 # ==================================================
 
-# For testing use "1mo"
-# Later change to "max"
+# Using 5 years of historical data
+# for indicator calculation and backtesting
 
-DOWNLOAD_PERIOD = "1mo"
+DOWNLOAD_PERIOD = "5y"
 
 # Valid values:
 # 1d, 5d, 1wk, 1mo, 3mo

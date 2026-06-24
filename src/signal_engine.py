@@ -104,6 +104,7 @@ if __name__ == "__main__":
         ].tail(10)
     )
 
+    
     print("\nLatest Signal:\n")
 
     print(
